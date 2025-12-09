@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Home</title>
+  <link rel="stylesheet" href="style.css"> 
+  <link rel="stylesheet" href="header.css"> 
+  <link rel="stylesheet" href="hero.css"> 
+</head>
+<body>
+
+<!-- ============================================================= HEADER -->
+<header class="header">
+  <div class="logo">Nazmul</div>
+
+  <!-- Hamburger Icon -->
+  <div class="menu-icon" onclick="document.querySelector('.nav').classList.toggle('active')">
+    ☰
+  </div>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+
+<!-- =============================================== HERO SECTION -->
+<section class="hero">
+  <div class="hero-text">
+    <h1>Hello, I'm <span>Nazmul Hasan</span></h1>
+    <p>Frontend Developer & Creative Designer</p>
+    <a href="contact.html" class="btn">Hire Me</a>
+  </div>
+
+  <div class="hero-slider">
+    <div class="slides">
+      <img src="photo/img1.jpg" alt="">
+      <img src="photo/img2.jpg" alt="">
+      <img src="photo/img3.jpg" alt="">
+    </div>
+  </div>
+</section>
+
+
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <h2>About Me</h2>
+  <p>I am a web developer who loves creating clean and simple websites.</p>
+</section>
+
+<!-- SKILLS -->
+<section class="skills">
+  <h2>Skills</h2>
+  <p>HTML</p>
+  <div class="bar"><div style="width: 90%;"></div></div>
+
+  <p>CSS</p>
+  <div class="bar"><div style="width: 80%;"></div></div>
+
+  <p>JavaScript</p>
+  <div class="bar"><div style="width: 70%;"></div></div>
+</section>
+
+<!-- PROJECTS -->
+<section class="projects" id="projects">
+  <h2>Projects</h2>
+
+  <div class="project-card">
+    <img src="p1.jpg" alt="">
+    <h3>Project One</h3>
+    <a href="#">View Project</a>
+  </div>
+
+  <div class="project-card">
+    <img src="p2.jpg" alt="">
+    <h3>Project Two</h3>
+    <a href="#">View Project</a>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services">
+  <h2>Services</h2>
+  <ul>
+    <li>Web Design</li>
+    <li>Web Development</li>
+    <li>UI/UX Design</li>
+  </ul>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2025 Nazmul Hasan | All Rights Reserved</p>
+  <div class="social">
+    <a href="#">Facebook</a> |
+    <a href="#">Instagram</a>
+  </div>
+</footer>
+
+</body>
+</html>
